@@ -9,16 +9,21 @@ public static void main(String[] args)
 	int Wagephour = 20;
 	int hours = 8;
 	int workingdays = 20;
+	int i = 100 ; 
 	/*int parthrs=4;*/
 	double empcheck=Math.floor(Math.random() * 10 % 2);
 	/*int empwage = Wagephour * hours ;*/
 	/*int wagepartime = parthrs * Wagephour ;*/
-	int monthwage= workingdays * hours * Wagephour ;
+	/*int monthwage= workingdays * hours * Wagephour ;*/
+	int salary = i * Wagephour;
+	for(i=0;i<=100;i++)
+	{
 	if(empcheck == ISPRESENT) {
 	System.out.println("Employee is Present");
 	/*System.out.println ("Wage of Employee" + empwage);
 	System.out.println ("Wage of Part time Employee" + wagepartime);*/
-	System.out.println (" Monthly Wage of Employee" + monthwage);
+	/*System.out.println (" Monthly Wage of Employee" + monthwage);*/
+	System.out.println ("Salary of Employee" + salary);
 	}
 		else {
 			
@@ -26,7 +31,7 @@ public static void main(String[] args)
 			System.out.println("Employee is Absent");
 	
 		}
-	
+	}
 }
 
 }
