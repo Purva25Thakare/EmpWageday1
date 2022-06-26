@@ -7,12 +7,15 @@ public static void main(String[] args)
 	
 	int ISPRESENT = 1;
 	int Wagephour = 20;
-	int hours = 8;
+	/*int hours = 8;*/
+	int parthrs=4;
 	double empcheck=Math.floor(Math.random() * 10 % 2);
-	int empwage = Wagephour * hours ;
+	/*int empwage = Wagephour * hours ;*/
+	int wagepartime = parthrs * Wagephour ;
 	if(empcheck == ISPRESENT) {
 	System.out.println("Employee is Present");
-	System.out.println ("Wage of Employee" + empwage);
+	/*System.out.println ("Wage of Employee" + empwage);*/
+	System.out.println ("Wage of Part time Employee" + wagepartime);
 	}
 		else {
 			
